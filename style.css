@@ -230,6 +230,6 @@ h1.page-top span {
 
 .inside-top img.top:hover, .card p:hover ~ .inside-top img.top {
   opacity: 0;
-  transition: 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
