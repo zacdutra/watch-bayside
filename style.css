@@ -10,7 +10,7 @@ body {
   background: #2c3e50;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 .background {
@@ -249,8 +249,10 @@ h1.page-top span {
 .module-category {
   color: white;
   text-align: left;
-  width: 100%;
-  margin: 1em 0em 0em 5.5em;
+  width: 50%;
+  margin: 1em 0em 0em 0em;
   font-weight: 600;
+  position: relative;
+  left: 2.8em;
 }
 
