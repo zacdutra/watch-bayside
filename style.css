@@ -150,8 +150,6 @@ h1.page-top span {
   max-width: 100%;
   overflow: hidden;
   overflow-x:scroll;
-  border-left:1px solid #fff;
-  border-right:1px solid #fff;
   display: flex;
   align-content: center;
   align-items: center;
@@ -165,6 +163,7 @@ h1.page-top span {
   display: flex;
   position: relative;
   left: 140em;
+  margin-top: 0.5em;
 }
 
 .card{
@@ -231,5 +230,13 @@ h1.page-top span {
 .inside-top img.top:hover, .card p:hover ~ .inside-top img.top {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+}
+
+.module-category {
+  color: white;
+  text-align: left;
+  width: 100%;
+  margin: 1em 0em 0em 5.5em;
+  font-weight: 600;
 }
 
