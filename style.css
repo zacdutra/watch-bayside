@@ -188,6 +188,21 @@ h1.page-top span {
   transition-timing-function:cubic-bezier(0.5, 0, 0.1, 1);
   transition-duration:400ms;
   margin: 0em 0.95em;
+  background-color: black;
+}
+
+.card p {
+  z-index: 200;
+  position: absolute;
+  bottom: 0em;
+  left: 0.25em;
+  color: white;
+  opacity: 0;
+}
+
+.card:hover > p {
+  opacity: 1;
+  transition: opacity 1s;
 }
 
  .inside-top{
@@ -210,9 +225,10 @@ h1.page-top span {
 
 .inside-top img.bottom {
   z-index: 90;
+  opacity: 0.5;
 }
 
-.inside-top img.top:hover {
+.inside-top img.top:hover, .card p:hover ~ .inside-top img.top {
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
